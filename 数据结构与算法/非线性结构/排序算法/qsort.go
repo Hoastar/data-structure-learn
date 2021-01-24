@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	var sortArray = []int{3, 41, 24, 76, 11, 45, 3, 3, 64, 21, 69, 19, 36}
+	var sortArray = []int{3,2,1,5,6,4}
 	fmt.Println(sortArray)
 	qsort(sortArray, 0, len(sortArray)-1)
 	fmt.Println(sortArray)
